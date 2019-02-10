@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
+    <link>https://anflo51.github.io/blog/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Feb 2019 13:40:25 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 10 Feb 2019 13:54:35 -0600</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://anflo51.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Segundo</title>
+      <link>https://anflo51.github.io/blog/post/segundo/</link>
+      <pubDate>Sun, 10 Feb 2019 13:54:35 -0600</pubDate>
+      
+      <guid>https://anflo51.github.io/blog/post/segundo/</guid>
+      <description>2 post Segundo Post</description>
+    </item>
+    
+    <item>
       <title>Hola_mundo</title>
-      <link>http://example.org/post/hola_mundo/</link>
+      <link>https://anflo51.github.io/blog/post/hola_mundo/</link>
       <pubDate>Sun, 10 Feb 2019 13:40:25 -0600</pubDate>
       
-      <guid>http://example.org/post/hola_mundo/</guid>
+      <guid>https://anflo51.github.io/blog/post/hola_mundo/</guid>
       <description>Hola Mundo Primer post</description>
     </item>
     
