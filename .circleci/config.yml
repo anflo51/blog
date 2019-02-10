@@ -14,20 +14,20 @@ deploy-job:
   docker:
     - image: cibuilds/hugo:latest
   working_directory: ~/project
-    steps:
-      - checkout
-      - run:
-          name: "Run Hugo"
-          command: HUGO_ENV=production hugo -v -s ~/project/
-      - add_ssh_keys
-      - run:
-          name: Push to git
-          command: |
-            git config --global user.email "aff128312@gmail.com"
-            git config --global user.name "CircleCI"
-            git add docs/
-            git commit -m "Release"
-            git push origin master
+  steps:
+    - checkout
+    - run:
+        name: "Run Hugo"
+        command: HUGO_ENV=production hugo -v -s ~/project/
+    - add_ssh_keys
+    - run:
+        name: Push to git
+        command: |
+          git config --global user.email "aff128312@gmail.com"
+          git config --global user.name "CircleCI"
+          git add docs/
+          git commit -m "Release"
+          git push origin master
 
 workflows:
   version: 2
